@@ -78,3 +78,19 @@ You can verify that NLTK is installed and working correctly by running a simple 
 import nltk
 print(nltk.__version__) 
 ```
+## Preprocessing Text
+
+Text preprocessing is a crucial step in performing sentiment analysis, as it helps to clean and normalize the text data, making it easier to analyze. The preprocessing step involves a series of techniques that transform raw text data into a form suitable for analysis. 
+
+## Common Text Preprocessing Techniques
+
+1. **Tokenization**: This process involves breaking down the text into smaller units called tokens (words or phrases). Tokenization helps in understanding the structure of the text and prepares it for further analysis.
+
+2. **Stop Word Removal**: Stop words are common words (such as "and," "the," "is") that usually do not carry significant meaning. Removing these words helps in reducing noise in the data and improves the performance of sentiment analysis models.
+
+3. **Stemming**: Stemming reduces words to their root or base form. For example, "running" becomes "run." This technique helps in consolidating similar words, making it easier to analyze the text.
+
+4. **Lemmatization**: Similar to stemming, lemmatization also reduces words to their base form. However, it takes into account the context of the word, ensuring that the transformed word is a valid word in the language (e.g., "better" becomes "good"). Lemmatization often yields more meaningful results compared to stemming.
+
+By applying these preprocessing techniques, the text data becomes cleaner, more uniform, and easier to analyze, ultimately enhancing the performance of sentiment analysis models.
+
