@@ -51,3 +51,30 @@ Advanced machine learning techniques, particularly those based on neural network
 **Convolutional Neural Networks (CNNs):** Originally used for image processing, CNNs can also be applied to text classification tasks by treating sentences as images of word embeddings.
 
 **Transformers:** A more recent advancement in deep learning, transformers use self-attention mechanisms to weigh the importance of different words in a sentence, allowing for better understanding of context and relationships. Models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) leverage transformers to achieve state-of-the-art results in various NLP tasks, including sentiment analysis. Transformers excel at capturing nuanced meanings and are particularly effective in processing large volumes of text data.
+
+## Installing NLTK
+
+The Natural Language Toolkit (NLTK) is a powerful Python library for natural language processing. Follow the steps below to install NLTK and set it up for your projects.
+
+### Step 1: Install NLTK
+
+1. **Open your command line or terminal**.
+
+2. **Run the following command**:
+
+   ```bash
+   pip install nltk
+
+### Step 2: Download NLTK Data (Corpora)
+After installing NLTK, you'll need to download some datasets (corpora) for it to work effectively. You can do this by running the following Python code:
+```bash
+import nltk
+# Download all necessary datasets (this may take some time)
+nltk.download('all')
+```
+### Step 3: Verify the Installation
+You can verify that NLTK is installed and working correctly by running a simple test:
+```bash
+import nltk
+print(nltk.__version__) 
+```
